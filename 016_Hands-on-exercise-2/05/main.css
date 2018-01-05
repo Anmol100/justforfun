@@ -1,0 +1,10 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  border-radius: 15px;
+  border: 20px groove green;
+  background-image: url(../../000_img/pup.jpg);
+  backgroung-size: cover;
+  background-repeat: no-repeat;
+}
