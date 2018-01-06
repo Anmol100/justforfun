@@ -1,0 +1,19 @@
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: violet;
+  text-decoration: none;
+}
+
+a:hover {
+  color: skyblue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+  text-decoration: underline
+}
