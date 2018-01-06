@@ -1,0 +1,28 @@
+html {
+  background-color: darkblue;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+  background-color: green;
+  border: 5px solid black;
+}
+
+img {
+  border-radius : 50%;
+  border : 10px groove gold;
+  margin : 0 auto;
+  display: block
+}
+ p {
+   font-size: 20px;
+ }
+
+.first {
+  color: blue;
+}
+
+.second {
+  color: red;
+}
