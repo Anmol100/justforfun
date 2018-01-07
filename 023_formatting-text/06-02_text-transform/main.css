@@ -1,0 +1,13 @@
+h1 {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+  font-style: italic;
+  /* font-variant: small-caps; */
+  /* font-variant: normal; */
+  /* font-variant: titling-caps; */
+  /* font-variant: unicase; */
+  /* text-transform: uppercase; */
+  text-transform: capitalize;
+
+}
