@@ -1,0 +1,12 @@
+p {
+  font-family: 'Merienda One', cursive;
+  /* font-family: arial,sans-serif; */
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
