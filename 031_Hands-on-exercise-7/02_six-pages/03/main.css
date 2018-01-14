@@ -1,0 +1,24 @@
+div {
+  border: 1px solid red;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  background-color: grey;
+  margin: 0.5rem;
+}
+
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  border: 5px solid red;
+  /* justify-content: space-around; */
+  /* align-item: center; */
+}
+
+.f {
+  flex-shrink: 1;
+}
+
+.s {
+  flex-shrink: 3;
+}

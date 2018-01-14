@@ -1,0 +1,14 @@
+div {
+  border: 1px solid red;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  background-color: grey;
+  margin: 0.5rem;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  border: 5px solid red;
+}
