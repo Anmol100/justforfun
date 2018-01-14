@@ -3,7 +3,7 @@ body {
     display: flex;
     /*flex-direction: row;*/
     /*flex-wrap: wrap;*/
-    flex-flow: row wrap;
+    flex-flow: column wrap-reverse;
 }
 
 /* flex items */
