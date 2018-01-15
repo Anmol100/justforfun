@@ -1,0 +1,9 @@
+header, nav, article, aside, footer {
+  padding: 20px 0;
+  border: 2px solid black;
+  text-align: center;
+  /* min-height: 100px;
+  width: 100%;
+  display: inline-block; not required in this case */
+  background: #ffeebb;
+}

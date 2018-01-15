@@ -1,0 +1,13 @@
+html, body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+#one {
+  position: fixed;
+  bottom: 0;
+  background-color: tomato;
+  border: 5px solid red;
+  width: 1350px;
+  height: 50px;
+}

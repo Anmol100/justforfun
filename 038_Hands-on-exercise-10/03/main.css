@@ -1,0 +1,28 @@
+html, body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+div {
+}
+#one {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  background-color: tomato;
+  border: 5px solid red;
+  width: 500px;
+  height: 500px;
+}
+#two {
+  position: relative;
+  left: 400px;
+  top: 150px;
+  background-color: pink;
+  border: 5px solid hotpink;
+  width: 100px;
+  height: 100px;
+}
+body {
+  font-weight:  bold;
+}

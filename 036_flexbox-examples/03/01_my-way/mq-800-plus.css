@@ -1,0 +1,23 @@
+.c1, .c2 {
+  display: inline-block;
+  width: 20%;
+  order: 3;
+  min-height: 40px;
+}
+.c1 {
+  order: 1;
+}
+.c2 {
+  order: 3
+}
+article {
+  width: 60%;
+  order: 2;
+}
+body {
+  width: 90%;
+  padding: 0 3em;
+}
+footer {
+  order: 4;
+}
