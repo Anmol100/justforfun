@@ -1,0 +1,17 @@
+ul {
+    list-style: none;
+    background-color: deepskyblue;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    /* min-height: 50px; not required in this case */
+    text-align: center;
+    padding: 15px 0;
+    /* box-sizing: border-box; not required in this case */
+    border-top: 2px solid rgba(255,255,255,0.3);
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+a:hover {
+  background-color: royalblue;
+}
