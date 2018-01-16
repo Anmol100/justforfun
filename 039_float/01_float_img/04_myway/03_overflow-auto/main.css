@@ -1,0 +1,16 @@
+div, img {
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+div {
+  overflow: auto;
+  /* This property is  used on the container( div in this case )
+  of the element( img in this case ) which is overfloating */
+}
+#right {
+  float: right;
+}
+#left {
+  float: left;
+}
