@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  /* border: 10px solid black; */
+}
+
+div {
+  background-image: url("../img/background-photo-mobile-devices.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* background-attachment: fixed; */
+  /* width: 100%; */
+  /* border: 5px solid green; */
+
+}
+
+h1 {
+  text-align: center;
+  font-family: Cantarell;
+  color: ghostwhite;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  margin: 25px auto;
+  /* border: 1.5px   solid red; */
+}
+
+h2 {
+  text-align: center;
+  color: ghostwhite;
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 20px;
+  /* border: 1.5px solid blue; */
+}
+
+p {
+  text-align: center;
+  color: ghostwhite;
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 20px;
+  /* border: 1.5px solid hotpink; */
+}
+
+nav {
+  color: lightgreen;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px;
+  margin: 20px;
+  /* height: 30px; */
+}
+
+a {
+  text-align: center;
+  font-family: Cantarell;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: bold;
+}

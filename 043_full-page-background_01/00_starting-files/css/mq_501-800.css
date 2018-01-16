@@ -1,0 +1,23 @@
+h1 {
+  font-size: 1.3rem;
+  margin: 17px auto;
+}
+
+h2 {
+  font-size: .7rem;
+  height: 15px;
+}
+
+p {
+  font-size: .7rem;
+  height: 15px;
+}
+
+nav {
+  border: 2px solid lightgreen;
+  padding: 7px;
+}
+
+a {
+  font-size: .75rem;
+}
