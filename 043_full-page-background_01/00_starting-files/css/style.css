@@ -4,11 +4,11 @@ body {
 }
 
 div {
-  background-image: url("../img/background-photo-mobile-devices.jpg");
+  background-image: url("../img/background-photo-1980.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   /* width: 100%; */
   /* border: 5px solid green; */
 
@@ -16,7 +16,7 @@ div {
 
 h1 {
   text-align: center;
-  font-family: Cantarell;
+  font-family: 'Cantarell';
   color: ghostwhite;
   text-transform: uppercase;
   font-size: 1.7rem;
@@ -27,6 +27,7 @@ h1 {
 h2 {
   text-align: center;
   color: ghostwhite;
+  font-family: 'Cantarell';
   text-transform: uppercase;
   font-size: .75rem;
   font-weight: bold;
@@ -38,9 +39,10 @@ h2 {
 p {
   text-align: center;
   color: ghostwhite;
+  font-family: 'Cantarell';
   text-transform: uppercase;
   font-size: .75rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 0 auto;
   height: 20px;
   /* border: 1.5px solid hotpink; */
@@ -58,7 +60,7 @@ nav {
 
 a {
   text-align: center;
-  font-family: Cantarell;
+  font-family: 'Cantarell';
   text-transform: uppercase;
   font-size: .8rem;
   font-weight: bold;

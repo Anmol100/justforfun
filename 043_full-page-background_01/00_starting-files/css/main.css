@@ -1,8 +1,9 @@
 div, nav, h1 {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* flex-flow: column wrap; */
 }
 
 /*
