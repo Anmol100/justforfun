@@ -1,0 +1,10 @@
+div {
+  height: 500px;
+  width: 700px;
+  border: 20px groove gold;
+  background-image: url(dog.png);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: 300px 10px;
+
+}
