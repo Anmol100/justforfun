@@ -1,0 +1,15 @@
+html, body, header, ul, li, main, h1, small, a, p {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+li, a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+   flex-wrap: wrap;
+}

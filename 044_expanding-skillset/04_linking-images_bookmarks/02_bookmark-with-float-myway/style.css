@@ -1,0 +1,66 @@
+/* #posfix {
+  position:fixed;
+  width:100%;
+  top:0;
+} */
+body {
+  background-image: url("img/fog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height:100vh;
+}
+
+li {
+  position: fixed;
+  list-style: none;
+  /* border: 2px solid red; */
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background-color: #474747;
+}
+
+li > a {
+      padding: 1.3rem .165rem;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    border-left: 2px solid rgba(255,255,255,0.3);
+    border-right: 2px solid rgba(0,0,0,0.1);
+    border-top: 2px solid rgba(255,255,255,0.3);
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+a:hover {
+  background-color: #282828;
+}
+
+small > a {
+  padding: 1.1rem;
+
+}
+
+main {
+  padding: 5rem 2rem;
+}
+
+h1 {
+  padding: 1.2rem 0;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+small {
+  display: block;
+  background-color: #191919;
+  width: 100%;
+}
+
+p {
+  color: whitesmoke;
+  margin: 2.3rem 0;
+}

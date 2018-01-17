@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 10px groove gold;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}

@@ -1,0 +1,47 @@
+li {
+  background-color: deepskyblue;
+  list-style: none;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+li > a {
+      padding: 1.3rem .165rem;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    border-left: 2px solid rgba(255,255,255,0.3);
+    border-right: 2px solid rgba(0,0,0,0.1);
+    border-top: 2px solid rgba(255,255,255,0.3);
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+a:hover {
+  background-color: royalblue;
+}
+
+small > a {
+  padding: 1.1rem;
+}
+
+main {
+  padding: 40px;
+}
+
+h1 {
+  padding: 1.2rem 0;
+  text-transform: uppercase;
+}
+
+small {
+  display: block;
+  background-color: darkblue;
+  width: 100%;
+}
+
+p {
+  margin: 2.3rem 0;
+}
