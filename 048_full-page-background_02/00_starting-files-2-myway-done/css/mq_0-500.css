@@ -1,0 +1,27 @@
+div {
+  background-image: url("../img/background-photo-mobile-devices.jpg");
+}
+
+h1 {
+  font-size: 1rem;
+  margin: 10px auto;
+}
+
+h2 {
+  font-size: .65rem;
+  height: 12px;
+}
+
+p {
+  font-size: .65rem;
+  height: 12px;
+}
+
+nav {
+  border: 1px solid lightgreen;
+  padding: 5px;
+}
+
+a {
+  font-size: .65rem;
+}

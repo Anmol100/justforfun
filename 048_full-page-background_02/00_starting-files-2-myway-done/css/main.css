@@ -1,0 +1,15 @@
+div, nav, h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: column wrap; */
+}
+
+/*
+h1, h2, p, nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+} */
