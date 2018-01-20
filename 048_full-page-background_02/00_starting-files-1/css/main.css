@@ -1,3 +1,9 @@
+svg, use, pre {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
 html {
     font-family: 'Cantarell', sans-serif;
     color: whitesmoke;
@@ -5,99 +11,73 @@ html {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
   height: 2.8rem;
   top: 0;
   background-color: rgba(0,0,0,0.6);
   width: 100%;
-  /*border: 1px solid green;*/
+  /* border: 2px solid green; */
 }
-div {
+
+.hlogname, .hnav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-nav {
-
-  width: 10rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-header > div,nav {
-  height: 90%;
+  height: 100%;
   margin: 0 .5rem;
   /* border: 1px solid blue; */
 }
 
+.hlogname {
+     width: 16rem;
+     /* border: 1px solid Aqua; */
+}
+
+.hnav {
+     width: 16rem;
+     display: none;
+     /* border: 1px solid GreenYellow; */
+}
+
+.logo {
+  display: none;
+}
+
+header a {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 .1rem;
+  /* border: 1px solid orange; */
+}
+
+header a:hover {
+  color: SpringGreen;
+}
+
 svg {
-  /* border: 1px solid red; */
-}
-.tlogo {
-  width: 1.9rem;
-  height: 1.9rem;
-  fill: white;
+   /* border: 2px solid red; */
 }
 
-.tlogo:hover {
-  width: 2.2rem;
-  height: 2.2rem;
+header h1 {
+  font-size: 1.5rem;
 }
 
-.hlogo {
-  width: 1.7rem;
-  height: 1.7rem;
-  fill: white;
-}
-
-.hlogo:hover {
-  width: 2.2rem;
-  height: 2.2rem;
-}
-
-.clogo {
-  width: 1.7rem;
-  height: 1.7rem;
-  fill: white;
-}
-
-.clogo:hover {
-  width: 2.2rem;
-  height: 2.2rem;
-}
-
-.plogo {
-  width: 1.7rem;
-  height: 1.7rem;
-  fill: white;
-}
-
-.plogo:hover {
-  width: 2.2rem;
-  height: 2.2rem;
-}
-
-.glogo {
-  width: 1.7rem;
-  height: 1.7rem;
-  fill: white;
-}
-
-.glogo:hover {
-  width: 2.2rem;
-  height: 2.2rem;
-}
 
 #idx-atf {
     /* layout */
+    /* margin-top: 10vh; */
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background */
-    background-color: #5b5b5b;
+    /* background-color: #5b5b5b; */
     background-image: url("../img/background-photo-mobile-devices.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -105,24 +85,30 @@ svg {
     /*background-origin: border-box;*/
     background-attachment: fixed;
     /* formatting */
+    /* border: 2px solid pink; */
 }
 
 #idx-atf > div {
-    height: 90vh;
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid lime; */
 }
 
 .idx-center-spacebetween {
+    margin-top: 10vh;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: space-between;
     align-items: center;
+    /* border: 2px solid GreenYellow; */
 }
 
 .idx-center-center {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid Indigo; */
 }
 
 h1 {
@@ -131,23 +117,72 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
     text-align: center;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-align: center;
     margin-top: .8rem;
     line-height: 1.2;
 }
 
 button {
-    color: rgb(202, 250, 234);
-    font-size: 1.4rem;
+    color: SpringGreen;
+    font-size: 1.2rem;
     font-weight: 700;
-    border: 1px solid rgb(202, 250, 234);
-    padding: .7rem 1.2rem;
-    border-radius: 3px;
+    border: 2px solid SpringGreen;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+ul {
+  /* border: 1px solid Crimson; */
+}
+
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: deepskyblue;
+  height: 2.2rem;
+  /* border: 1px solid Maroon; */
+}
+
+li a, li h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* border: 2px solid orange; */
+}
+
+li:hover {
+  background-color: royalblue;
+}
+/*
+li svg {
+  width: 30%;
+  height: 100%;
+} */
+
+li h3 {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-left: 1rem;
+  /* border: 2px solid blue; */
+}
+
+.mlogo {
+  margin-left: 1.5rem;
+  width: 2rem;
+  height: 100%;
+  fill: currentColor;
+}
+
+.mlogo:hover {
+  fill: SpringGreen;
 }

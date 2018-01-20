@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hlogname {
+  width: 14rem;
+}
+
+header h1 {
+  font-size: 1.2rem;
+}
+
+.hnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  /* margin: 0 .5rem; */
+  /* border: 1px solid blue; */
+}
+
+.logo {
+  display: inline;
+  width: 2rem;
+  height: 100%;
+  fill: currentColor;
+}
+
+.logo:hover {
+  fill: SpringGreen;
+}
+
+header nav a:hover {
+  border-radius: 5px;
+  background-color: #505050;
+}
+
+#idx-atf {
+    background-image: url("../img/background-photo-mobile-devices.jpg");
+}
+
+#idx-atf > div {
+    height: 16rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: .4rem;
+}
+
+.listnav {
+  display: none;
+}
